@@ -1,0 +1,163 @@
+{
+    "milestone": {
+        "type": 7,
+        "index": 5690350,
+        "timestamp": 1710158053,
+        "protocolVersion": 2,
+        "previousMilestoneId": "0x958f35918b508a193eca5ce008c0c9deabdfbe261ea623b9a354bdce690a5f63",
+        "parents": [
+            "0x2966043b70e15c270df4e142299d65820907940cb4598deacf43a02e898c3b44",
+            "0x795a887d6ea649bdfbf6c879d2e4a11751e1a29dd3194328a49e88a7181018ee",
+            "0xa3bd577e90da3226b6d44edce66b57a9a20e1468b6646e2fbf4a87a03c364559",
+            "0xdd61da43014d298467def5af93493d87f841508a5ae6fe7c75be5b374d77a2dd",
+            "0xe611644e11b198a4c622c626b3bf4e6a7f066a0a930b92a38b42855d29706785",
+            "0xf51127ed4e76f914ce818e58d8994927cdb14829c8380ffe05600339263aa90d"
+        ],
+        "inclusionMerkleRoot": "0x06a0afe51453664a780e58596bbfa5130f970541b106dba32e7916b1cb7c4cb4",
+        "appliedMerkleRoot": "0x99b67827649c2b0301f9bb26bcc3f15f2ab1f80220b7cfdd6bccef7cc8d3f163",
+        "signatures": [
+            {
+                "type": 0,
+                "publicKey": "0x3fbd504162cdadd744e42fc3e9c17e6cc5e166e7c5f83754114f01763b33e79e",
+                "signature": "0x777eba602b9f49ae50d76f50948e5de2e1adf081fd1fea10fb2ca48b20566ed9bf8713e23101948971f0f27a51130bb64fcd133b9042e570434dd1fdac4f100c"
+            },
+            {
+                "type": 0,
+                "publicKey": "0x50c73d1d5061fd7498b4eb300c6158002df3dcd9726f5e87a2adc6f1cc53bc4d",
+                "signature": "0x036e4492ef68b2ca38e85dd21d4f9a0d33cc92bb88f86679000ed1841c1ef7cf438b98e0ef23947c4ba8881d5aae4e05302d8b639b87d8c8253438d508a2f50a"
+            },
+            {
+                "type": 0,
+                "publicKey": "0x5d8b1263e3b087007b5ca16c2794f8fa51649880d0c7e73188e99ccd1258b794",
+                "signature": "0xd0378799a6b9bc6ac13cb53bff402b5d9c2fd35e6094c96cc974908b5345c45b53a541a9b1f87406dd958e09669dd1d0bff836e9e2bfffc14f90dd1e4d6b4903"
+            },
+            {
+                "type": 0,
+                "publicKey": "0x8ec0201a0d06a85e2e86d4868f7a008145493554b9fc8643e775288e90bf1fef",
+                "signature": "0x41bb64a9ee96ef6c33c0ae72967240be474379550cd9013314376b984794089191245b353945cd92793ce02e3ec1860b634b2e595720d65dc48657797b908e0c"
+            },
+            {
+                "type": 0,
+                "publicKey": "0x9de535e6014ed3a443aa104d7e9f5d448f38247c69dda39908c3ffd4e52cbf67",
+                "signature": "0x620bdff604df63ad8c26b7e86b5e1414048fc1352b33769d8f4914f7afcc732eb9cbf9ca8a312298b6d2fb14411381c48c873d5b1baba8f65b221ef56c3ac702"
+            },
+            {
+                "type": 0,
+                "publicKey": "0xd109a355c1b8424a14cc644f82eb2be09fddffc68370584115af5e3021e7ef86",
+                "signature": "0xfde8f84a729f58d55ce149c2d2944165e734b725508b59a8cf4c33f5eb95f9b74b9d6cca0c97e70392ed9664148f75465c61c154e2c10b60cc40fdff6657160c"
+            },
+            {
+                "type": 0,
+                "publicKey": "0xd86692079ca36e1e96292db17f2380ed53936f38c47156926f0f66ffc98e7561",
+                "signature": "0xb9c128ef7f20a241cc4307f52e5129494bb77e4f47b6ebb9bf667c6c19fc60e6972722e46fbed1d0c559e18ae5e6d35911a27b2968df946f3db4570824ab780c"
+            }
+        ]
+    },
+    "block": {
+        "protocolVersion": 2,
+        "parents": [
+            "0x22c0690e6b5cf9b04c3518894d04bce25373ab9448d0622a8553916da76720f4",
+            "0xbb3ae8c8d4a3ac18ecc06334369bc1b1b24e9303d365de7cc315430e24a672ba",
+            "0xd1f74b02657482fdf0f0204d6e59be299d80c43e5af5547037ebb6ee886261a2",
+            "0xf74819e072696a909ab8932abdd3c72ab49be2ff36ea1d1bbe88e7abd7e88f02"
+        ],
+        "payload": {
+            "type": 6,
+            "essence": {
+                "type": 1,
+                "networkId": "17441532106425976874",
+                "inputs": [
+                    {
+                        "type": 0,
+                        "transactionId": "0x9b425bb39bbb89281fc46d9e052f74ae5e3d94dc626a3f593a32a0dc5c3b98a4",
+                        "transactionOutputIndex": 0
+                    }
+                ],
+                "inputsCommitment": "0x6f20fff72a455c285fd480583637109bd05834dcb4a8b0030752374bedd9ee66",
+                "outputs": [
+                    {
+                        "type": 4,
+                        "amount": "98100",
+                        "aliasId": "0x574d9a7d39529f53001baffe55f4864a7ab3a02b052592db215c4c43115db770",
+                        "stateIndex": 1,
+                        "stateMetadata": "0x7b226d657461223a7b2275706461746564223a22323032342d30332d31315431313a35343a31305a227d2c227265636f7264223a7b2266696e6765727072696e74223a226e693a2f2f2f7368612d3235363b31656534353537366437373564393564343434633765313961353133356132393962346439386235613736663031666532363637663731626432396431326462222c226c6f6361746f72223a22687474703a2f2f3132372e302e302e313a383038302f697066732f516d624e377935546d7044466e79704e424a557753777248786241554a466379576e354870315859594345715964227d7d",
+                        "foundryCounter": 0,
+                        "unlockConditions": [
+                            {
+                                "type": 4,
+                                "address": {
+                                    "type": 0,
+                                    "pubKeyHash": "0x49c6e0659ceab35edf6d42c08c7bcfd4f0b74fc97a6da0e92e6d17ba1213458e"
+                                }
+                            },
+                            {
+                                "type": 5,
+                                "address": {
+                                    "type": 0,
+                                    "pubKeyHash": "0x49c6e0659ceab35edf6d42c08c7bcfd4f0b74fc97a6da0e92e6d17ba1213458e"
+                                }
+                            }
+                        ],
+                        "immutableFeatures": [
+                            {
+                                "type": 1,
+                                "address": {
+                                    "type": 0,
+                                    "pubKeyHash": "0x49c6e0659ceab35edf6d42c08c7bcfd4f0b74fc97a6da0e92e6d17ba1213458e"
+                                }
+                            },
+                            {
+                                "type": 2,
+                                "data": "0x7b226d657461223a7b2263726561746564223a22323032342d30332d31315431313a35303a33355a222c2274797065223a22545241494c3a312e30227d2c227265636f7264223a7b22706f69466f6c6465724c6f6361746f72223a22687474703a2f2f3132372e302e302e313a383038302f69706e732f6b3531717a693575717535646b396a6a7267303275347934716c6467357767667376677a79776a72766b6b62377469667031766d69627267743067393262222c2274797065223a225245534f555243453a312e30227d7d"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "unlocks": [
+                {
+                    "type": 0,
+                    "signature": {
+                        "type": 0,
+                        "publicKey": "0xb8cb4ea28e1d78618356efc1be4f43c9ce2a888b284f572701ed72b3e01b41fc",
+                        "signature": "0xfb0f95b5b5337cc456cd70b5e135784a12388cd9d12752e512e4042ce3ffe8d193580599c5e9f31b476ab8d2f18e73f8d87492a4e10f50a77eabe77108ef040c"
+                    }
+                }
+            ]
+        },
+        "nonce": "0"
+    },
+    "proof": {
+        "l": {
+            "l": {
+                "h": "0x0e9a0a53b1706ebea1f9522884fcce37214d53c222fbfb958594062d102c11f9"
+            },
+            "r": {
+                "l": {
+                    "l": {
+                        "l": {
+                            "l": {
+                                "value": "0x3519b4ff94c1a27b934d814fe83e4397012a6fb22b1d65b1593c4958d0ff0ee3"
+                            },
+                            "r": {
+                                "h": "0xe7e8738d9ad1e0d933df0d0b3fb808ef6b68648a1aa8605abf8b419fed376c69"
+                            }
+                        },
+                        "r": {
+                            "h": "0x75be114898ee3141a37c3a961c031acbbb0783123fea8f6eb85014e2785a911e"
+                        }
+                    },
+                    "r": {
+                        "h": "0x2bb1784764301e36444eebcfce97a94a8e8926a90bdb8c252d77edfb8fd95151"
+                    }
+                },
+                "r": {
+                    "h": "0xd667f1cc145d2e516700550c7002dced1d9a7e833490cbbb5f31ae9e9541eed6"
+                }
+            }
+        },
+        "r": {
+            "h": "0x5e8d59ba17622ef5a57b8634a984f4e72fe3d24820f5f639ffa8391d1f2947c2"
+        }
+    }
+}

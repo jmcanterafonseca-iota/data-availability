@@ -1,0 +1,15 @@
+v1: QmWQb5tbejStFo9mZso2xgq8iRqFmxXpBwQurcPXzsTFnh
+v2: QmbN7y5TmpDFnypNBJUwSwrHxbAUJFcyWn5Hp1XYYCEqYd
+
+folder: QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn
+
+Name: k51qzi5uqu5dlizm187zruhqls4viy04rf22aqahmvy5o0qvja856gk28tpim4
+
+
+Trail: urn:trail:iota:ebsi:0x574d9a7d39529f53001baffe55f4864a7ab3a02b052592db215c4c43115db770
+
+Resource: 
+
+urn:resource:iota:ebsi:0x574d9a7d39529f53001baffe55f4864a7ab3a02b052592db215c4c43115db770?version=1
+urn:resource:iota:ebsi:0x574d9a7d39529f53001baffe55f4864a7ab3a02b052592db215c4c43115db770?version=2
+urn:resource:iota:ebsi:0x574d9a7d39529f53001baffe55f4864a7ab3a02b052592db215c4c43115db770
