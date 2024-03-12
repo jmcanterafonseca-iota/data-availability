@@ -9,7 +9,7 @@ import { ResourceResolver } from "./resourceResolver";
 async function run() {
     dotenv.config();
 
-    const { LOG_LEVEL, RESOURCE, NODE, TOKEN, IPFS_GATEWAY } = process.env;
+    const { LOG_LEVEL, RESOURCE, NODE, TOKEN, IPFS_GATEWAY_URL } = process.env;
 
     App.logger = new Logger({
         minLevel: parseInt(LOG_LEVEL ?? "2", 10)
@@ -25,7 +25,7 @@ async function run() {
         process.exit(-1);
     }
 
-    const resolver = new ResourceResolver(NODE, TOKEN, IPFS_GATEWAY);
+    const resolver = new ResourceResolver(NODE, TOKEN, IPFS_GATEWAY_URL);
 
     const data = await resolver.resolve(RESOURCE);
 

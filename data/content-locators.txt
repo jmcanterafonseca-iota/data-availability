@@ -10,6 +10,17 @@ Trail: urn:trail:iota:ebsi:0x574d9a7d39529f53001baffe55f4864a7ab3a02b052592db215
 
 Resource: 
 
-urn:resource:iota:ebsi:0x574d9a7d39529f53001baffe55f4864a7ab3a02b052592db215c4c43115db770?version=1
-urn:resource:iota:ebsi:0x574d9a7d39529f53001baffe55f4864a7ab3a02b052592db215c4c43115db770?version=2
-urn:resource:iota:ebsi:0x574d9a7d39529f53001baffe55f4864a7ab3a02b052592db215c4c43115db770
+urn:resource:iota:ebsi:0x3a304bd6e1030159e5edad520d19ff150aeda7d65cab7c1f52ab5d41289c62a1?version=1
+urn:resource:iota:ebsi:0x3a304bd6e1030159e5edad520d19ff150aeda7d65cab7c1f52ab5d41289c62a1?version=2
+urn:resource:iota:ebsi:0x3a304bd6e1030159e5edad520d19ff150aeda7d65cab7c1f52ab5d41289c62a1
+
+
+
+Folder: /RESOURCES/456789
+QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn
+
+http://34.254.155.221:8080/ipns/k51qzi5uqu5dkoegb4psvr38jik80i8yja7xl20o2sh7xew1ynbsusohyprhaw/
+IPNS: ipns://k51qzi5uqu5dgxz1uzygtt6mz5m6xxujjvlheiz8259doz0x0s5my4onob7a3s 
+
+POI v1: QmRUPzJYrhXM5S632QnLYZVjfZ88AW5fJrtCE1iJdFRFC3
+POI v2: QmaTTP5PDg6NWKcGLFVd5NHVQ1DfXLLJzRDEcW8Z6jhpzc

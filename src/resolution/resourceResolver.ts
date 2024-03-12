@@ -10,6 +10,8 @@ export class ResourceResolver {
 
     private readonly _TRAILS_ENDPOINT = "api/ext/v1/trails";
 
+    private readonly _SUPPORTED_PROTOCOLS = ["ipfs:", "ipns:", "http:", "https:"];
+
     constructor(node: string, token: string, ipfsGateway: string) {
         this.node = node;
         this.token = token;
@@ -73,7 +75,24 @@ export class ResourceResolver {
     private async resolveLocator(ipfsGateway: string, locator: string): Promise<Uint8Array> {
         App.LDebug("Retrieving content", locator);
 
-        const response = await fetch(locator);
+        const url = new URL(locator);
+
+        if (!this._SUPPORTED_PROTOCOLS.includes(url.protocol)) {
+            App.LError("Protocol ", url.protocol, " not supported");
+            throw new Error("Locator_Protocol_Not_Supported");
+        }
+
+        let toFetch = locator;
+        if (url.protocol !== "http:" && url.protocol !== "https:") {
+            App.LDebug(url.host);
+            const path1 = url.protocol.substring(0, url.protocol.length - 1);
+            // This is different than in browser, as it would be url.pathname
+            const path2 = url.host;
+            toFetch = `${ipfsGateway}/${path1}/${path2}`;
+        }
+
+        App.LDebug("Resource to be fetched", toFetch);
+        const response = await fetch(toFetch);
 
         if (response.status === 200) {
             const buffer = await response.arrayBuffer();

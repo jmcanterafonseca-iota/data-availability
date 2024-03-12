@@ -1,7 +1,7 @@
 {
-  "name": "abac-oracle",
-  "version": "0.2.1",
-  "description": "ABAC Oracle",
+  "name": "data-availability",
+  "version": "0.0.1",
+  "description": "Data availability PoC",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -18,7 +18,7 @@
     "start-docker": "docker-compose up --build -d",
     "stop-docker": "docker-compose down"
   },
-  "author": "IOTA EBSI Team",
+  "author": "IOTA Team",
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.9.1",
